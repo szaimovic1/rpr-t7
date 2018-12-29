@@ -1,17 +1,19 @@
 package ba.unsa.etf.rpr.t7;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class UN {
-    private ArrayList<Drzava> spisak;
+    private ArrayList<Drzava> drzave = new ArrayList<>();
 
-    public UN() {}
-
-    public ArrayList<Drzava> getSpisak() {
-        return spisak;
+    public UN() {
     }
 
-    public void setSpisak(ArrayList<Drzava> spisak) {
-        this.spisak = spisak;
+    public List<Drzava> getDrzave() {
+        return drzave;
+    }
+
+    public void setDrzave(ArrayList<Drzava> drzave) {
+        this.drzave = drzave;
     }
 }
